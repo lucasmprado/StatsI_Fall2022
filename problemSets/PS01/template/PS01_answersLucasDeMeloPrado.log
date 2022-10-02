@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.12)  29 SEP 2022 21:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.12)  2 OCT 2022 01:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1105,7 +1105,7 @@ anged.
 Here is how much of TeX's memory you used:
  27325 strings out of 478338
  486705 string characters out of 2836700
- 1107787 words of memory out of 3000000
+ 1107786 words of memory out of 3000000
  45075 multiletter control sequences out of 15000+600000
  480711 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1129,7 +1129,7 @@ public/amsfonts/cm/cmr8.pfb><C:/Users/lucas/AppData/Local/Programs/MiKTeX/fonts
 TeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/lucas/AppData/Local/Prog
 rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/lucas/AppData/L
 ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on PS01_answersLucasDeMeloPrado.pdf (13 pages, 347332 bytes).
+Output written on PS01_answersLucasDeMeloPrado.pdf (13 pages, 347340 bytes).
 PDF statistics:
  343 PDF objects out of 1000 (max. 8388607)
  150 named destinations out of 1000 (max. 500000)
