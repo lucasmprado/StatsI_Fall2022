@@ -12,6 +12,10 @@ dat <- midwest # A built-in dataset
 ?midwest
 # use your own code here to explore
 
+summary(midwest)
+head(midwest)
+str(midwest)
+unique(dat$state)
 
 ### ggplot
 
@@ -36,9 +40,9 @@ ggplot(aes(x = x1, y = y1), # We use the aes() function to supply an x and y arg
 # percent college educated is used to predict the percentage of people
 # below the poverty line.
 
-ggplot(aes(x = , # add the independent variable
-           y = ), # add the dependent variable
-       data = ) + # add the data source
+ggplot(aes(x = percollege, # add the independent variable
+           y = percbelowpoverty), # add the dependent variable
+       data = dat) + # add the data source
   geom_point()
 
 # How would we add a title to this plot? Try looking in the help file and
@@ -66,8 +70,19 @@ pairs(dat[c("poptotal", "percwhite", "percblack", "perchsd",
 # correlation, pick two variables to run the cor() function on. 
 # Visualise these separately using ggplot, and save the output to file.
 
+?midwest
+
+ggplot(aes(x = popwhite, y = percollege), data = dat) +
+  geom_point()
+
+ggplot(aes(x = percollege, y = percbelowpoverty), data = dat) +
+  geom_point()
+
+ggplot(aes(x = percbelowpoverty, y = percollege), data = dat) +
+  geom_point()
+
 # Code to save your plot (saves last plot)
-ggsave("corr_plot",
+ggsave("corr_plot.png",
        device = "png",
        dpi = 300)
 
@@ -94,7 +109,7 @@ ggplot(aes(percbelowpoverty, percollege), data = dat) +
 
 ggplot(aes(percbelowpoverty, state), data = dat) +
   geom_point(
-    #position = "jitter" # uncomment this line and run again
+    position = "jitter" # uncomment this line and run again
     )
 
 # 3. Faceting
@@ -119,7 +134,7 @@ dev.off() # To prevent plotting errors below
 # the independent variable, and percent below poverty is the outcome, or
 # dependent variable.
 
-coll_pov <- lm(, # add the correct code here 
+coll_pov <- lm(percbelowpoverty ~ percollege, # add the correct code here 
                data = dat)
 summary(coll_pov)
 
@@ -132,9 +147,9 @@ abline(coll_pov, # our regression model
        col = "blue")
 
 # How would we plot this using ggplot?
-ggplot(aes(x = , 
-           y = ), 
-       data = ) +
+ggplot(aes(x = percollege, 
+           y = percbelowpoverty), 
+       data = dat) +
   geom_point() +
   geom_smooth(method = "lm", formula = y ~ x)
 

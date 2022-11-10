@@ -21,13 +21,25 @@ summary(dat)
 # have? Try using the as.factor() function to transform it to
 # a factor.
 
+unique(dat$genre)
+as.factor(dat$genre)
+dat$genre_f <- as.factor(dat$genre)
+
 # Explore the `top200_box` column. Try using the as.logical() 
 # function to transform it. What goes wrong?
+
+head(dat$top200_box)
+unique(dat$top200_box)
+as.logical(dat$top200_box)
+top200Box <- as.logical(dat$top200_box)
 
 # The ifelse() function can be useful for transforming values,
 # which then allows us to transform the class of the vector.
 # Read the help file on ifelse() and try to use it on 
 #`top200_box` to transform "No" to FALSE and "Yes" to TRUE.
+
+dat$top200_box_l <- ifelse(dat$top200_box=="yes", TRUE, FALSE)
+as.logical(dat$top200_box_l)
 
 ######################
 # Exploratory Analysis
@@ -36,16 +48,19 @@ summary(dat)
 # The file below is a pre-wrangled version of `movies.csv`. You
 # can inspect the script used to make it, `data_wrangling.R`, in
 # your own time.
+
 dat <- readRDS("movies.RDS")
 
 ## Making contingency tables
 # To create a contingency table, we use the `table()` function.
 # We can also wrap the call in the `with()` function to avoid
 # having to call the $ operator.
+
 with(dat, table(genre, critics_rating))
 
 # If we want to add margins to the table, we can use the 
 # addmargins() function as a wrapper to table().
+
 with(dat, addmargins(table(genre, critics_rating)))
 
 # The prop.table() function is a wrapper of table() that converts 
@@ -54,15 +69,19 @@ with(dat, addmargins(table(genre, critics_rating)))
 # it returns the overall prop (i.e proportion of total sum).
 
 # Proportion along the rows:
+
 with(dat, prop.table(table(genre, critics_rating), margin = 1))
 
 # Try to find the proportion along the columns:
 
+with(dat, prop.table(table(genre, critics_rating), margin = 2))
 
 # Total proportion:
+
 with(dat, prop.table(table(genre, critics_rating)))
 
 # Note: the round() function is often useful here:
+
 with(dat, round(prop.table(table(genre, critics_rating), 
                            margin = 1), 
                 digits = 2))
@@ -81,15 +100,18 @@ dat_mini <- subset(dat, dat$genre %in% c("Action & Adventure",
                                          "Mystery & Suspense"))
 
 # Run the code below. What is wrong with the output?
+
 with(dat_mini, table(genre, critics_rating))
 
 # Casting or coercing data from one class to another can have
 # unintended consequences. 
+
 with(dat_mini, levels(genre))
 
 # Even though we filtered our data to exclude certain 
 # observations, the underlying levels still exist. To get rid of
 # these, we need to use the droplevels() function.
+
 dat_mini$genre <- droplevels(dat_mini$genre)
 
 with(dat_mini, table(genre, critics_rating))
@@ -104,19 +126,22 @@ with(dat_mini, table(genre, critics_rating))
 
 # The barplot function requires we input our values in the
 # form of a matrix.
+
 mat <- as.matrix(with(dat_mini, table(genre, critics_rating)),
                  nrows = 5)
 
 # Look at the output of this code. Is there a better way of
 # visualising our data?
+
 barplot(height = mat, 
         beside = TRUE, 
         legend.text = TRUE,
         args.legend = list(x = "topleft", 
-                           cex = 0.4, 
+                           cex = 0.8, 
                            box.col = "white"))
 
 # Let's try using prop.table to get a proportional picture
+
 mat_p <- as.matrix(prop.table(table(dat_mini$genre, 
                                     dat_mini$critics_rating),
                               margin = 1),
@@ -126,13 +151,14 @@ barplot(height = mat_p,
         beside = TRUE, 
         legend.text = TRUE,
         args.legend = list(x = "topleft", 
-                           cex = 0.4, 
+                           cex = 0.8, 
                            box.col = "white"))
 
 # Is this a better visualisation? Does anything about the data
 # strike you?
 
 # Let's save that last plot for use in our Latex file.
+
 png(filename = "barplot.png",
     width = 600,
     height = 350)
@@ -153,13 +179,14 @@ dev.off()
 # it work? Let's call it on the contingency table we used for 
 # the bar plot above.
 
-chi <- 
+chi <- chisq.test(table(dat_mini$genre, dat_mini$critics_rating))
 
 # Remember, when we assign the result of a test to an object,
 # we can then access all the information which belongs to that
 # object.
+
 chi
 ls(chi)
 chi$residuals
 
-# How do you interpret these results? 
+# How do you interpret these results?
