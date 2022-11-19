@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.12)  11 NOV 2022 00:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.19)  19 NOV 2022 19:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **./PS03_answersLucasDeMeloPrado.tex
 (PS03_answersLucasDeMeloPrado.tex
 LaTeX2e <2022-06-01> patch level 5
-L3 programming layer <2022-07-04>
+L3 programming layer <2022-09-28>
 (C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
 (C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
@@ -43,10 +43,12 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 Package graphics Info: Driver file: pdftex.def on input line 107.
 
 (C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
-File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+\stockwidth=\dimen139
+\stockheight=\dimen140
 ))
-\Gin@req@height=\dimen139
-\Gin@req@width=\dimen140
+\Gin@req@height=\dimen141
+\Gin@req@width=\dimen142
 ) (C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 )
@@ -71,10 +73,8 @@ Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 149.
-
-(C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/latex-dev/graphics\mathcolor.
-ltx))
-(C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+(C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+) (C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2022/04/08 v2.17n AMS math features
 \@mathmargin=\skip52
 
@@ -85,11 +85,11 @@ Package: amstext 2021/08/26 v2.01 AMS text
 (C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks17
-\ex@=\dimen141
+\ex@=\dimen143
 ))
 (C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen142
+\pmbraise@=\dimen144
 )
 (C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
@@ -111,7 +111,7 @@ LaTeX Info: Redefining \big on input line 722.
 LaTeX Info: Redefining \Big on input line 723.
 LaTeX Info: Redefining \bigg on input line 724.
 LaTeX Info: Redefining \Bigg on input line 725.
-\big@size=\dimen143
+\big@size=\dimen145
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \macc@depth=\count199
@@ -129,12 +129,12 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \column@=\count270
 \maxfields@=\count271
 \andhelp@=\toks19
-\eqnshift@=\dimen144
-\alignsep@=\dimen145
-\tagshift@=\dimen146
-\tagwidth@=\dimen147
-\totwidth@=\dimen148
-\lineht@=\dimen149
+\eqnshift@=\dimen146
+\alignsep@=\dimen147
+\tagshift@=\dimen148
+\tagwidth@=\dimen149
+\totwidth@=\dimen150
+\lineht@=\dimen151
 \@envbody=\toks20
 \multlinegap=\skip53
 \multlinetaggap=\skip54
@@ -188,45 +188,45 @@ Bootstrap'ing: catcodes, docmode,
  Xy-pic is free software: see the User's Guide for details.
 
 Loading kernel: messages; fonts; allocations: state,
-\X@c=\dimen150
-\Y@c=\dimen151
-\U@c=\dimen152
-\D@c=\dimen153
-\L@c=\dimen154
-\R@c=\dimen155
+\X@c=\dimen152
+\Y@c=\dimen153
+\U@c=\dimen154
+\D@c=\dimen155
+\L@c=\dimen156
+\R@c=\dimen157
 \Edge@c=\toks29
-\X@p=\dimen156
-\Y@p=\dimen157
-\U@p=\dimen158
-\D@p=\dimen159
-\L@p=\dimen160
-\R@p=\dimen161
+\X@p=\dimen158
+\Y@p=\dimen159
+\U@p=\dimen160
+\D@p=\dimen161
+\L@p=\dimen162
+\R@p=\dimen163
 \Edge@p=\toks30
-\X@origin=\dimen162
-\Y@origin=\dimen163
-\X@xbase=\dimen164
-\Y@xbase=\dimen165
-\X@ybase=\dimen166
-\Y@ybase=\dimen167
-\X@min=\dimen168
-\Y@min=\dimen169
-\X@max=\dimen170
-\Y@max=\dimen171
+\X@origin=\dimen164
+\Y@origin=\dimen165
+\X@xbase=\dimen166
+\Y@xbase=\dimen167
+\X@ybase=\dimen168
+\Y@ybase=\dimen169
+\X@min=\dimen170
+\Y@min=\dimen171
+\X@max=\dimen172
+\Y@max=\dimen173
 \lastobjectbox@=\box54
 \zerodotbox@=\box55
-\almostz@=\dimen172
+\almostz@=\dimen174
  direction,
-\d@X=\dimen173
-\d@Y=\dimen174
+\d@X=\dimen175
+\d@Y=\dimen176
 \K@=\count275
 \KK@=\count276
 \Direction=\count277
-\K@dXdY=\dimen175
-\K@dYdX=\dimen176
+\K@dXdY=\dimen177
+\K@dYdX=\dimen178
 \xyread@=\read3
 \xywrite@=\write4
 \csp@=\count278
-\quotPTK@=\dimen177
+\quotPTK@=\dimen179
 
 utility macros; pictures: \xy, positions,
 \swaptoks@@=\toks31
@@ -251,12 +251,12 @@ Package: xy 2013/10/06 Xy-pic version 3.8.9
 \crv@cnt@=\count279
 \crvpts@=\toks33
 \splinebox@=\box57
-\splineval@=\dimen178
-\splinedepth@=\dimen179
-\splinetol@=\dimen180
-\splinelength@=\dimen181
+\splineval@=\dimen180
+\splinedepth@=\dimen181
+\splinetol@=\dimen182
+\splinelength@=\dimen183
  circles,
-\L@=\dimen182
+\L@=\dimen184
  loaded)
 (C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/generic/xypic\xyframe.tex
  Xy-pic option: Frame and Bracket extension v.3.14 loaded)
@@ -266,7 +266,7 @@ Package: xy 2013/10/06 Xy-pic version 3.8.9
  Xy-pic option: More Tips extension v.3.11 loaded) loaded)
 (C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/generic/xypic\xyline.tex
  Xy-pic option: Line styles extension v.3.10
-\xylinethick@=\dimen183
+\xylinethick@=\dimen185
  loaded)
 (C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/generic/xypic\xyrotate.tex
  Xy-pic option: Rotate and Scale extension v.3.8 loaded)
@@ -301,7 +301,7 @@ loaded) loaded))
 (C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/latex/endnotes\endnotes.sty
 Package: endnotes 2020-01-02 endnotes package
 \c@endnote=\count285
-\endnotesep=\dimen184
+\endnotesep=\dimen186
 \@enotes=\write5
 )
 (C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
@@ -318,7 +318,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@floatcapt=\box59
 )
 (C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
-Package: hyperref 2022-06-20 v7.00s Hypertext links for LaTeX
+Package: hyperref 2022-09-22 v7.00t Hypertext links for LaTeX
 
 (C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
@@ -336,9 +336,8 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.s
-ty
-Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+(C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )
 (C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
 keys.sty
@@ -372,11 +371,11 @@ Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
 \c@section@level=\count288
 )
-\@linkdim=\dimen185
+\@linkdim=\dimen187
 \Hy@linkcounter=\count289
 \Hy@pagecounter=\count290
  (C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
-File: pd1enc.def 2022-06-20 v7.00s Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2022-09-22 v7.00t Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 ) (C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
@@ -387,7 +386,7 @@ Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
 \Hy@SavedSpaceFactor=\count291
  (C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
-File: puenc.def 2022-06-20 v7.00s Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2022-09-22 v7.00t Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
@@ -397,15 +396,15 @@ Package hyperref Info: Hyper index ON on input line 4170.
 Package hyperref Info: Plain pages OFF on input line 4177.
 Package hyperref Info: Backreferencing OFF on input line 4182.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4408.
+Package hyperref Info: Bookmarks ON on input line 4410.
 \c@Hy@tempcnt=\count292
 
 (C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4746.
-\XeTeXLinkMargin=\dimen186
+LaTeX Info: Redefining \url on input line 4748.
+\XeTeXLinkMargin=\dimen188
 
 (C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -416,15 +415,15 @@ Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
 \Fld@menulength=\count293
-\Field@Width=\dimen187
-\Fld@charsize=\dimen188
-Package hyperref Info: Hyper figures OFF on input line 6024.
-Package hyperref Info: Link nesting OFF on input line 6029.
-Package hyperref Info: Hyper index ON on input line 6032.
-Package hyperref Info: backreferencing OFF on input line 6039.
-Package hyperref Info: Link coloring OFF on input line 6044.
-Package hyperref Info: Link coloring with OCG OFF on input line 6049.
-Package hyperref Info: PDF/A mode OFF on input line 6054.
+\Field@Width=\dimen189
+\Fld@charsize=\dimen190
+Package hyperref Info: Hyper figures OFF on input line 6027.
+Package hyperref Info: Link nesting OFF on input line 6032.
+Package hyperref Info: Hyper index ON on input line 6035.
+Package hyperref Info: backreferencing OFF on input line 6042.
+Package hyperref Info: Link coloring OFF on input line 6047.
+Package hyperref Info: Link coloring with OCG OFF on input line 6052.
+Package hyperref Info: PDF/A mode OFF on input line 6057.
 
 (C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
@@ -436,7 +435,7 @@ package with kernel methods
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 (C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
-File: hpdftex.def 2022-06-20 v7.00s Hyperref driver for pdfTeX
+File: hpdftex.def 2022-09-22 v7.00t Hyperref driver for pdfTeX
 
 (C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
@@ -471,21 +470,21 @@ Package: titlesec 2021/07/05 v2.14 Sectioning titles
 \ttl@box=\box60
 \beforetitleunit=\skip59
 \aftertitleunit=\skip60
-\ttl@plus=\dimen189
-\ttl@minus=\dimen190
+\ttl@plus=\dimen191
+\ttl@minus=\dimen192
 \ttl@toksa=\toks38
-\titlewidth=\dimen191
-\titlewidthlast=\dimen192
-\titlewidthfirst=\dimen193
+\titlewidth=\dimen193
+\titlewidthlast=\dimen194
+\titlewidthfirst=\dimen195
 )
 (C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/latex/tools\dcolumn.sty
 Package: dcolumn 2014/10/28 v1.06 decimal alignment package (DPC)
 
 (C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
-Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
-\col@sep=\dimen194
+Package: array 2022/03/10 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen196
 \ar@mcellbox=\box61
-\extrarowheight=\dimen195
+\extrarowheight=\dimen197
 \NC@list=\toks39
 \extratabsurround=\skip61
 \backup@length=\skip62
@@ -499,8 +498,8 @@ y
 (C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
 -common.tex
 \pgfutil@everybye=\toks40
-\pgfutil@tempdima=\dimen196
-\pgfutil@tempdimb=\dimen197
+\pgfutil@tempdima=\dimen198
+\pgfutil@tempdimb=\dimen199
 
 (C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
 -common-lists.tex))
@@ -532,16 +531,16 @@ Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
 filtered.code.tex
 \pgfkeys@tmptoks=\toks43
 ))
-\pgf@x=\dimen198
-\pgf@y=\dimen199
-\pgf@xa=\dimen256
-\pgf@ya=\dimen257
-\pgf@xb=\dimen258
-\pgf@yb=\dimen259
-\pgf@xc=\dimen260
-\pgf@yc=\dimen261
-\pgf@xd=\dimen262
-\pgf@yd=\dimen263
+\pgf@x=\dimen256
+\pgf@y=\dimen257
+\pgf@xa=\dimen258
+\pgf@ya=\dimen259
+\pgf@xb=\dimen260
+\pgf@yb=\dimen261
+\pgf@xc=\dimen262
+\pgf@yc=\dimen263
+\pgf@xd=\dimen264
+\pgf@yd=\dimen265
 \w@pgf@writea=\write6
 \r@pgf@reada=\read4
 \c@pgf@counta=\count305
@@ -585,9 +584,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 227.
 LaTeX Info: Redefining \color on input line 711.
-
-(C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/latex-dev/graphics\mathcolor.
-ltx)
+(C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
 Package xcolor Info: Model `RGB' extended on input line 1369.
@@ -610,7 +607,7 @@ code.tex
 code.tex)
 (C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparse
 r.code.tex
-\pgfmath@dimen=\dimen264
+\pgfmath@dimen=\dimen266
 \pgfmath@count=\count312
 \pgfmath@box=\box64
 \pgfmath@toks=\toks47
@@ -644,32 +641,32 @@ tex)
 (C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 epoints.code.tex
 File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@picminx=\dimen265
-\pgf@picmaxx=\dimen266
-\pgf@picminy=\dimen267
-\pgf@picmaxy=\dimen268
-\pgf@pathminx=\dimen269
-\pgf@pathmaxx=\dimen270
-\pgf@pathminy=\dimen271
-\pgf@pathmaxy=\dimen272
-\pgf@xx=\dimen273
-\pgf@xy=\dimen274
-\pgf@yx=\dimen275
-\pgf@yy=\dimen276
-\pgf@zx=\dimen277
-\pgf@zy=\dimen278
+\pgf@picminx=\dimen267
+\pgf@picmaxx=\dimen268
+\pgf@picminy=\dimen269
+\pgf@picmaxy=\dimen270
+\pgf@pathminx=\dimen271
+\pgf@pathmaxx=\dimen272
+\pgf@pathminy=\dimen273
+\pgf@pathmaxy=\dimen274
+\pgf@xx=\dimen275
+\pgf@xy=\dimen276
+\pgf@yx=\dimen277
+\pgf@yy=\dimen278
+\pgf@zx=\dimen279
+\pgf@zy=\dimen280
 )
 (C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 epathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@path@lastx=\dimen279
-\pgf@path@lasty=\dimen280
+\pgf@path@lastx=\dimen281
+\pgf@path@lasty=\dimen282
 )
 (C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 epathusage.code.tex
 File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@shorten@end@additional=\dimen281
-\pgf@shorten@start@additional=\dimen282
+\pgf@shorten@end@additional=\dimen283
+\pgf@shorten@start@additional=\dimen284
 )
 (C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 escopes.code.tex
@@ -682,14 +679,14 @@ File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 egraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgflinewidth=\dimen283
+\pgflinewidth=\dimen285
 )
 (C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 etransformations.code.tex
 File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@pt@x=\dimen284
-\pgf@pt@y=\dimen285
-\pgf@pt@temp=\dimen286
+\pgf@pt@x=\dimen286
+\pgf@pt@y=\dimen287
+\pgf@pt@temp=\dimen288
 )
 (C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 equick.code.tex
@@ -706,12 +703,12 @@ File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 earrows.code.tex
 File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfarrowsep=\dimen287
+\pgfarrowsep=\dimen289
 )
 (C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 eshade.code.tex
 File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@max=\dimen288
+\pgf@max=\dimen290
 \pgf@sys@shading@range@num=\count315
 \pgf@shadingcount=\count316
 )
@@ -752,8 +749,8 @@ File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
 mp-version-0-65.sty
 Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@nodesepstart=\dimen289
-\pgf@nodesepend=\dimen290
+\pgf@nodesepstart=\dimen291
+\pgf@nodesepend=\dimen292
 )
 (C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
 mp-version-1-18.sty
@@ -774,8 +771,8 @@ Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
 
 (C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
 .tex)
-\pgffor@iter=\dimen291
-\pgffor@skip=\dimen292
+\pgffor@iter=\dimen293
+\pgffor@skip=\dimen294
 \pgffor@stack=\toks50
 \pgffor@toks=\toks51
 ))
@@ -787,16 +784,16 @@ Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
 aryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@plot@mark@count=\count317
-\pgfplotmarksize=\dimen293
+\pgfplotmarksize=\dimen295
 )
-\tikz@lastx=\dimen294
-\tikz@lasty=\dimen295
-\tikz@lastxsaved=\dimen296
-\tikz@lastysaved=\dimen297
-\tikz@lastmovetox=\dimen298
-\tikz@lastmovetoy=\dimen299
-\tikzleveldistance=\dimen300
-\tikzsiblingdistance=\dimen301
+\tikz@lastx=\dimen296
+\tikz@lasty=\dimen297
+\tikz@lastxsaved=\dimen298
+\tikz@lastysaved=\dimen299
+\tikz@lastmovetox=\dimen300
+\tikz@lastmovetoy=\dimen301
+\tikzleveldistance=\dimen302
+\tikzsiblingdistance=\dimen303
 \tikz@figbox=\box70
 \tikz@figbox@bg=\box71
 \tikz@tempbox=\box72
@@ -826,28 +823,28 @@ File: tikzlibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
 aryarrows.code.tex
 File: pgflibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\arrowsize=\dimen302
+\arrowsize=\dimen304
 ))
 (C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip63
 \multirow@cntb=\count326
 \multirow@dima=\skip64
-\bigstrutjot=\dimen303
+\bigstrutjot=\dimen305
 )
 (C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
 \lst@mode=\count327
 \lst@gtempboxa=\box74
 \lst@token=\toks52
 \lst@length=\count328
-\lst@currlwidth=\dimen304
+\lst@currlwidth=\dimen306
 \lst@column=\count329
 \lst@pos=\count330
-\lst@lostspace=\dimen305
-\lst@width=\dimen306
+\lst@lostspace=\dimen307
+\lst@width=\dimen308
 \lst@newlines=\count331
 \lst@lineno=\count332
-\lst@maxwidth=\dimen307
+\lst@maxwidth=\dimen309
 
 (C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
@@ -863,7 +860,7 @@ Package: listings 2020/03/24 1.8d (Carsten Heinz)
 
 (C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
-File: l3backend-pdftex.def 2022-07-01 L3 backend support: PDF output (pdfTeX)
+File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count336
 \l__pdf_internal_box=\box76
 ) (PS03_answersLucasDeMeloPrado.aux
@@ -905,13 +902,13 @@ LaTeX Font Info:    ... okay on input line 68.
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count337
-\scratchdimen=\dimen308
+\scratchdimen=\dimen310
 \scratchbox=\box77
 \nofMPsegments=\count338
 \nofMParguments=\count339
 \everyMPshowfont=\toks53
 \MPscratchCnt=\count340
-\MPscratchDim=\dimen309
+\MPscratchDim=\dimen311
 \MPnumerator=\count341
 \makeMPintoPDFobject=\count342
 \everyMPtoPDFconversion=\toks54
@@ -975,45 +972,45 @@ LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
 )
 (PS03_answersLucasDeMeloPrado.R
 consecutive:
-[2])
-<lm_q1.png, id=45, 642.4pt x 481.8pt>
+)
+<lm_q1.png, id=16, 642.4pt x 481.8pt>
 File: lm_q1.png Graphic file (type png)
 <use lm_q1.png>
-Package pdftex.def Info: lm_q1.png  used on input line 130.
+Package pdftex.def Info: lm_q1.png  used on input line 129.
 (pdftex.def)             Requested size: 422.77664pt x 317.09207pt.
- (PS03_answersLucasDeMeloPrado.R
+ [2] (PS03_answersLucasDeMeloPrado.R
 consecutive:
 ) [3 <./lm_q1.png>] (PS03_answersLucasDeMeloPrado.R
 consecutive:
 ) (PS03_answersLucasDeMeloPrado.R
 consecutive:
-[4])
-<lm_q2.png, id=79, 642.4pt x 481.8pt>
+)
+<lm_q2.png, id=53, 642.4pt x 481.8pt>
 File: lm_q2.png Graphic file (type png)
 <use lm_q2.png>
-Package pdftex.def Info: lm_q2.png  used on input line 191.
+Package pdftex.def Info: lm_q2.png  used on input line 188.
 (pdftex.def)             Requested size: 422.77664pt x 317.09207pt.
- (PS03_answersLucasDeMeloPrado.R
+ [4] (PS03_answersLucasDeMeloPrado.R
 consecutive:
 ) [5 <./lm_q2.png>] (PS03_answersLucasDeMeloPrado.R
 consecutive:
 ) (PS03_answersLucasDeMeloPrado.R
 consecutive:
-[6])
-<lm_q3.png, id=118, 642.4pt x 481.8pt>
+)
+<lm_q3.png, id=82, 642.4pt x 481.8pt>
 File: lm_q3.png Graphic file (type png)
 <use lm_q3.png>
-Package pdftex.def Info: lm_q3.png  used on input line 257.
+Package pdftex.def Info: lm_q3.png  used on input line 249.
 (pdftex.def)             Requested size: 422.77664pt x 317.09207pt.
- [7 <./lm_q3.png>] (PS03_answersLucasDeMeloPrado.R
+ [6] [7 <./lm_q3.png>] (PS03_answersLucasDeMeloPrado.R
 consecutive:
 ) (PS03_answersLucasDeMeloPrado.R
 consecutive:
 ) [8]
-<lm_q4.png, id=154, 642.4pt x 481.8pt>
+<lm_q4.png, id=131, 642.4pt x 481.8pt>
 File: lm_q4.png Graphic file (type png)
 <use lm_q4.png>
-Package pdftex.def Info: lm_q4.png  used on input line 313.
+Package pdftex.def Info: lm_q4.png  used on input line 306.
 (pdftex.def)             Requested size: 422.77664pt x 317.09207pt.
  [9 <./lm_q4.png>] (PS03_answersLucasDeMeloPrado.R
 consecutive:
@@ -1026,10 +1023,10 @@ anged.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 27210 strings out of 478338
- 484232 string characters out of 2836700
- 1083728 words of memory out of 3000000
- 45005 multiletter control sequences out of 15000+600000
+ 27186 strings out of 475385
+ 483989 string characters out of 2776906
+ 1121793 words of memory out of 3000000
+ 47961 multiletter control sequences out of 15000+600000
  480352 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,10n,89p,3262b,2210s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -1049,9 +1046,9 @@ sy10.pfb><C:/Users/lucas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
 nts/cm/cmsy8.pfb><C:/Users/lucas/AppData/Local/Programs/MiKTeX/fonts/type1/publ
 ic/amsfonts/cm/cmti12.pfb><C:/Users/lucas/AppData/Local/Programs/MiKTeX/fonts/t
 ype1/public/amsfonts/cm/cmtt12.pfb>
-Output written on PS03_answersLucasDeMeloPrado.pdf (11 pages, 247525 bytes).
+Output written on PS03_answersLucasDeMeloPrado.pdf (11 pages, 233665 bytes).
 PDF statistics:
- 271 PDF objects out of 1000 (max. 8388607)
- 123 named destinations out of 1000 (max. 500000)
+ 236 PDF objects out of 1000 (max. 8388607)
+ 94 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -88,21 +88,20 @@
 \begin{enumerate}
 	\item \textbf{Run a regression where the outcome variable is \texttt{voteshare} and the explanatory variable is \texttt{difflog}.}
 		
-		\lstinputlisting[language=R, firstline=21, lastline=26]{PS03_answersLucasDeMeloPrado.R}		
+		\lstinputlisting[language=R, firstline=21, lastline=22]{PS03_answersLucasDeMeloPrado.R}		
 		
 		\begin{table}[H] \centering 
-			\caption{The effect of the difference in campaign spending between incumbent and challenger (\texttt{difflog}) on the incumbent's vote share (\texttt{voteshare})} 
+			\caption{The association between \texttt{difflog} and \texttt{voteshare}} 
 			\label{} 
 			\begin{tabular}{@{\extracolsep{5pt}}lc} 
 				\\[-1.8ex]\hline 
 				\hline \\[-1.8ex] 
 				& \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
 				\cline{2-2} 
-				\\[-1.8ex] & Incumbent's vote share \\
-				& \texttt{voteshare} \\
+				\\[-1.8ex] & \texttt{voteshare} \\ 
 				\hline \\[-1.8ex] 
-				Difference in campaign spending & 0.042$^{***}$ \\
-				\texttt{difflog} & (0.001) \\ 
+				\texttt{difflog} & 0.042$^{***}$ \\ 
+				& (0.001) \\ 
 				& \\ 
 				Constant & 0.579$^{***}$ \\ 
 				& (0.002) \\ 
@@ -117,22 +116,22 @@
 				\hline \\[-1.8ex] 
 				\textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
 			\end{tabular} 
-		\end{table}
+		\end{table} 
 		
 	\item \textbf{Make a scatterplot of the two variables and add the regression line.}
 
-		\lstinputlisting[language=R, firstline=29, lastline=37]{PS03_answersLucasDeMeloPrado.R}
+		\lstinputlisting[language=R, firstline=25, lastline=31]{PS03_answersLucasDeMeloPrado.R}
 		
 		\begin{figure}[H]
 			\centering
-			\caption{The effect of the difference in campaign spending between incumbent and challenger on the incumbent's vote share}
+			\caption{The association between \texttt{difflog} and \texttt{voteshare}}
 			\label{fig:lm_q1}
 			\includegraphics[width=0.9\linewidth]{lm_q1}
 		\end{figure}
 
 	\item \textbf{Save the residuals of the model in a separate object.}
 
-		\lstinputlisting[language=R, firstline=40, lastline=40]{PS03_answersLucasDeMeloPrado.R}
+		\lstinputlisting[language=R, firstline=34, lastline=34]{PS03_answersLucasDeMeloPrado.R}
 
 	\item \textbf{Write the prediction equation.}
 	\end{enumerate}
@@ -148,22 +147,20 @@
 \begin{enumerate}
 	\item \textbf{Run a regression where the outcome variable is \texttt{presvote} and the explanatory variable is \texttt{difflog}.}
 
-		\lstinputlisting[language=R, firstline=47, lastline=54]{PS03_answersLucasDeMeloPrado.R}
+		\lstinputlisting[language=R, firstline=41, lastline=42]{PS03_answersLucasDeMeloPrado.R}
 
 		\begin{table}[H] \centering 
-			\caption{The effect of the difference between incumbent's and challenger's spending (\texttt{difflog}) on the vote share of the presidential candidate of the incumbent's party (\texttt{presvote})} 
+			\caption{The association between \texttt{difflog} and \texttt{presvote}} 
 			\label{} 
 			\begin{tabular}{@{\extracolsep{5pt}}lc} 
 				\\[-1.8ex]\hline 
 				\hline \\[-1.8ex] 
 				& \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
 				\cline{2-2} 
-				\\[-1.8ex] & Vote share of the presidential \\ 
-				& candidate of the incumbent's party \\ 
-				& \texttt{presvote} \\
+				\\[-1.8ex] & \texttt{presvote} \\ 
 				\hline \\[-1.8ex] 
-				Difference in campaign spending & 0.024$^{***}$ \\ 
-				\texttt{difflog} & (0.001) \\ 
+				\texttt{difflog} & 0.024$^{***}$ \\ 
+				& (0.001) \\ 
 				& \\ 
 				Constant & 0.508$^{***}$ \\ 
 				& (0.003) \\ 
@@ -182,18 +179,18 @@
 	
 	\item \textbf{Make a scatterplot of the two variables and add the regression line.}
 	
-		\lstinputlisting[language=R, firstline=57, lastline=65]{PS03_answersLucasDeMeloPrado.R}
+		\lstinputlisting[language=R, firstline=45, lastline=51]{PS03_answersLucasDeMeloPrado.R}
 
 		\begin{figure}[H]
 			\centering
-			\caption{The effect of the difference between incumbent's and challenger's spending on the vote share of the presidential candidate of the incumbent's party}
+			\caption{The association between \texttt{difflog} and \texttt{presvote}}
 			\label{fig:lm_q2}
 			\includegraphics[width=0.9\linewidth]{lm_q2}
 		\end{figure}
 	
 	\item \textbf{Save the residuals of the model in a separate object.}
 	
-		\lstinputlisting[language=R, firstline=68, lastline=68]{PS03_answersLucasDeMeloPrado.R}
+		\lstinputlisting[language=R, firstline=54, lastline=54]{PS03_answersLucasDeMeloPrado.R}
 	
 	\item \textbf{Write the prediction equation.}
 	
@@ -211,23 +208,20 @@
 \begin{enumerate}
 	\item \textbf{Run a regression where the outcome variable is \texttt{voteshare} and the explanatory variable is \texttt{presvote}.}
 
-		\lstinputlisting[language=R, firstline=75, lastline=82]{PS03_answersLucasDeMeloPrado.R}
+		\lstinputlisting[language=R, firstline=61, lastline=62]{PS03_answersLucasDeMeloPrado.R}
 
 		\begin{table}[H] \centering 
-			\caption{The association between the vote share of the
-				presidential candidate of the incumbent's party (\texttt{presvote}) and the incumbent's electoral success (\texttt{voteshare})}
+			\caption{The association between \texttt{presvote} and \texttt{voteshare}} 
 			\label{} 
 			\begin{tabular}{@{\extracolsep{5pt}}lc} 
 				\\[-1.8ex]\hline 
 				\hline \\[-1.8ex] 
 				& \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
 				\cline{2-2} 
-				\\[-1.8ex] & Incumbent's vote share \\
-				& \texttt{voteshare} \\
+				\\[-1.8ex] & \texttt{voteshare} \\ 
 				\hline \\[-1.8ex] 
-				Vote share of the presidential \\ 
-				candidate of the incumbent's party & 0.388$^{***}$ \\ 
-				\texttt{presvote} & (0.013) \\ 
+				\texttt{presvote} & 0.388$^{***}$ \\ 
+				& (0.013) \\ 
 				& \\ 
 				Constant & 0.441$^{***}$ \\ 
 				& (0.008) \\ 
@@ -242,17 +236,15 @@
 				\hline \\[-1.8ex] 
 				\textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
 			\end{tabular} 
-		\end{table}
+		\end{table} 
 
 	\item \textbf{Make a scatterplot of the two variables and add the regression line.}
 
-		\lstinputlisting[language=R, firstline=85, lastline=93]{PS03_answersLucasDeMeloPrado.R}
+		\lstinputlisting[language=R, firstline=65, lastline=71]{PS03_answersLucasDeMeloPrado.R}
 
 		\begin{figure}[H]
 			\centering
-			\caption{The association between the vote share of the
-				presidential candidate of the incumbent's party and the
-				incumbent's electoral success}
+			\caption{The association between \texttt{presvote} and \texttt{voteshare}}
 			\label{fig:lm_q3}
 			\includegraphics[width=0.9\linewidth]{lm_q3}
 		\end{figure}
@@ -272,7 +264,7 @@
 \begin{enumerate}
 	\item \textbf{Run a regression where the outcome variable is the residuals from Question 1 and the explanatory variable is the residuals from Question 2.}
 
-		\lstinputlisting[language=R, firstline=101, lastline=106]{PS03_answersLucasDeMeloPrado.R}
+		\lstinputlisting[language=R, firstline=79, lastline=83]{PS03_answersLucasDeMeloPrado.R}
 		
 		\begin{table}[H] \centering 
 			\caption{The association between the residuals from Question 1 and Question 2} 
@@ -282,7 +274,8 @@
 				\hline \\[-1.8ex] 
 				& \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
 				\cline{2-2} 
-				\\[-1.8ex] & Residuals from Question 1 \\ 
+				\\[-1.8ex] & lm\_q1\_res \\ 
+				& Residuals from Question 1 \\ 
 				\hline \\[-1.8ex] 
 				Residuals from Question 2 & 0.257$^{***}$ \\ 
 				& (0.012) \\ 
@@ -304,7 +297,7 @@
 
 	\item \textbf{Make a scatterplot of the two residuals and add the regression line.}
 
-		\lstinputlisting[language=R, firstline=109, lastline=117]{PS03_answersLucasDeMeloPrado.R}	
+		\lstinputlisting[language=R, firstline=86, lastline=94]{PS03_answersLucasDeMeloPrado.R}	
 
 		\begin{figure}[H]
 			\centering
@@ -329,36 +322,35 @@
 \begin{enumerate}
 	\item \textbf{Run a regression where the outcome variable is the incumbent's \texttt{voteshare} and the explanatory variables are \texttt{difflog} and \texttt{presvote}.}
 
-		\lstinputlisting[language=R, firstline=125, lastline=133]{PS03_answersLucasDeMeloPrado.R}
+		\lstinputlisting[language=R, firstline=102, lastline=103]{PS03_answersLucasDeMeloPrado.R}
 
-		\begin{table}[H] \centering 
-			\caption{The effect of the difference between incumbent's and challenger's spending (\texttt{difflog}) and the president's popularity (\texttt{presvote}) on the incumbent's vote share (\texttt{voteshare})}
+		\begin{table}[!htbp] \centering 
+			\caption{The association among \texttt{difflog}, \texttt{presvote}, and \texttt{voteshare}} 
 			\label{} 
 			\begin{tabular}{@{\extracolsep{5pt}}lccc} 
 				\\[-1.8ex]\hline 
 				\hline \\[-1.8ex] 
 				& \multicolumn{3}{c}{\textit{Dependent variable:}} \\ 
 				\cline{2-4} 
-				\\[-1.8ex] & \multicolumn{3}{c}{Incumbent's vote share} \\
-				& & \texttt{voteshare} \\
+				\\[-1.8ex] & \multicolumn{3}{c}{\texttt{voteshare}} \\ 
 				\\[-1.8ex] & (1) & (2) & (3)\\ 
 				\hline \\[-1.8ex] 
-				Difference in campaign spending & 0.042$^{***}$ &  & 0.036$^{***}$ \\ 
-				\texttt{difflog} & (0.001) &  & (0.001) \\ 
+				\texttt{difflog} & 0.042$^{***}$ &  & 0.036$^{***}$ \\ 
+				& (0.001) &  & (0.001) \\ 
 				& & & \\ 
-				Vote share of the presidential \\
-				candidate of the incumbent's party &  & 0.388$^{***}$ & 0.257$^{***}$ \\ 
-				\texttt{presvote} &  & (0.013) & (0.012) \\ 
+				\texttt{presvote} &  & 0.388$^{***}$ & 0.257$^{***}$ \\ 
+				&  & (0.013) & (0.012) \\ 
 				& & & \\ 
 				Constant & 0.579$^{***}$ & 0.441$^{***}$ & 0.449$^{***}$ \\ 
-				& (0.002) & (0.008) & (0.006) \\
+				& (0.002) & (0.008) & (0.006) \\ 
+				& & & \\ 
 				\hline \\[-1.8ex] 
 				Observations & 3,193 & 3,193 & 3,193 \\ 
 				R$^{2}$ & 0.367 & 0.206 & 0.450 \\ 
 				Adjusted R$^{2}$ & 0.367 & 0.206 & 0.449 \\ 
 				Residual Std. Error & 0.079 & 0.088 & 0.073 \\ 
 				& (df = 3191) & (df = 3191) & (df = 3190) \\
-				F Statistic & 1,852.791$^{***}$ & 826.950$^{***}$ & 1,302.947$^{***}$ \\
+				F Statistic & 1,852.791$^{***}$ & 826.950$^{***}$ & 1,302.947$^{***}$ \\ 
 				& (df = 1; 3191) & (df = 1; 3191) & (df = 2; 3190) \\
 				\hline 
 				\hline \\[-1.8ex] 
@@ -375,7 +367,7 @@
 	
 		The slope ($\beta_1$) in the bivariate regression model of the residuals ($y=0.257x$) is the same slope ($\beta_2$) of the variable \texttt{presvote} ($x_2$) in the multivariate regression model ($y=0.449+0.036x_1+0.257x_2$). They are both $0.257$.
 		
-		To understand why that is the case, let's remember that the residuals in question represent the variations in \texttt{voteshare} and \texttt{presvote} which are not explained by \texttt{difflog}. Therefore, the bivariate regression model of the residuals captures how much of the unexplained variation in \texttt{voteshare} is associated to the unexplained variation in \texttt{presvote}, after having already considered the impact of \texttt{difflog}. In other words, the model of the residuals captures the effect of \texttt{presvote} on \texttt{voteshare} when we control for \texttt{difflog} --- which is exactly what the multivariate regression model does.
+		To understand why that is the case, let's remember that the residuals regressed in question 4 represent the variations in \texttt{voteshare} and \texttt{presvote} which are not explained by \texttt{difflog}. Therefore, the bivariate regression model of the residuals captures how much of the unexplained variation in \texttt{voteshare} is associated to the unexplained variation in \texttt{presvote}, after having already considered the impact of \texttt{difflog}. In other words, the model of the residuals captures the effect of \texttt{presvote} on \texttt{voteshare} when we control for \texttt{difflog} --- which is exactly what $\beta_2$ in the multivariate regression model represents.
 		
 		For that reason, the slopes in both models are expected to be the same. After all, they are measuring the same thing: the variation in \texttt{voteshare} explained by \texttt{presvote} while controlling for \texttt{difflog}.
 
